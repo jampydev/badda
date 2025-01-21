@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', () => {
         const iframe = document.querySelector('iframe');
         iframe.classList.add('glow');
-        setTimeout(() => iframe.classList.remove('glow'), 2000);
+        setTimeout(() => iframe.classList.remove('glow'), 20000);
     });
 
     // Crear partículas flotantes dinámicas
